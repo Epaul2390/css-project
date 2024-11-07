@@ -1,0 +1,120 @@
+body{
+    font-family: roboto;
+    background-color: rgb(158, 158, 233);
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: antiquewhite;
+    color: black;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  }
+/* hero section starts here */
+
+.hero-text{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    margin: 3rem;
+    
+}
+
+.hero-box{
+    
+    padding-top: 5rem;
+    height: 50vh;
+    width: 40%;
+}
+.hero-text h1 {
+    align-content: center;
+    margin-top: 5rem;
+    padding-top: 20px;
+}
+
+.hero-image img{
+    height: 100vh;
+}
+
+.btn{
+    background-color: orangered;
+    width: 50%;
+    height: 7vh;
+    margin-left: 5rem;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: #ce7c30; 
+    transition: 5ms;
+  }
+  
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    font-size: 20px;
+  }
+  
+  .footer{
+    background-color: rgb(114, 114, 222);
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3e8e41;
+  }
